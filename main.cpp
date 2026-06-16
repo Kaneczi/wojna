@@ -10,10 +10,10 @@
 int main()
 {
     int task;
+    int tasowanie = 100;
+    int step=1000;
     do {
         SetConsoleOutputCP(CP_UTF8);
-        int tasowanie = 100;
-        int step=1000;
         printf("\nKarty: gra w wojne\n\n1.Wpisz ilość tasowań kart (aktualna: %d)\n2.Wpisz opóźnienie między rundami (aktualna: %dms)\n3.Rozpocznij gre\n4.Zakończ program\n\n",tasowanie,step);
         scanf("%d", &task);
 
